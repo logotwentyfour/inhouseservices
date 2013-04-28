@@ -1,0 +1,14 @@
+/* fix for IE - the background gradient was tiling below the bottom image above the
+footer. replacing the background colour fixes this, however it causes another issue in 
+firefox, so this works fine.. the fix is only used for IE */
+
+#btm_img {
+	background-color:#dd9042;
+	}
+	
+legend {
+	margin-left:-7px;
+	}
+	
+
+

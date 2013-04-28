@@ -1,0 +1,4 @@
+# Created by Paddy O'Hanlon for inhouseservices.ie
+User-Agent: *
+Disallow: /cgi-bin/
+Sitemap: http://www.inhouseservices.ie/inhouse-services-site-map.xml

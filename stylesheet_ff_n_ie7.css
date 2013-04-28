@@ -1,0 +1,293 @@
+/* CSS Document */
+
+/* this eliminates browser defaults for the following properties */
+html, body, p, h1, h2, h3, h4, h5, h6, form_style, div, ul, li, span, img, br{  
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+}
+
+/* ------------------------------------------------------------------------------- */
+
+
+
+
+
+/* STYLESHEET BEGINS HERE */
+
+
+html {
+	height:100%;
+	}
+
+body {
+	height:100%;
+	background-color:#fbc370; /* controls the colour of the bottom background */
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:.7em;
+	color: #333333;
+	}
+	
+h1 {
+	font-size:1.2em;
+	font-weight:bold;
+	padding-bottom:.5em;
+	text-indent:0;
+	margin:0;
+	}
+	
+h2 {
+	font-size:1.1em;
+	font-weight:bold;
+	padding-bottom:.25em;
+	}
+	
+h3 {
+	font-size:1em;
+	font-weight:bold;
+	}
+	
+address {
+	font-style: normal;
+	}
+	
+
+/* STYLES FOR MAIN NAVIGATION */	
+
+ul { 
+	list-style:none;
+	}
+	
+	
+	
+	/* STYLES FOR LAYOUT DIVS BEGIN HERE */
+		
+#accessibility_options {
+	color:#616B62;
+	width:100%;
+	text-align:right;
+	float:right;
+	background-color:#dd9042; /* controls colour of the top background */
+}
+
+#accessibility_options a {
+	color:#dd9042;
+	}
+	
+#accessibility_options a:hover {
+	text-decoration:underline;
+	}
+	
+#page_rap {
+	width:100%;
+	padding-top:0.5%;
+	background-color:#dd9042; /* controls colour of the top background */
+	}
+
+#main_content {
+	width:840px;
+	margin:auto;
+	background-image:url('images/border.jpg');
+	background-repeat:repeat-y;
+	}
+	
+#top_img {
+	width:840px;
+	}
+
+#content_holder {
+	width:840px;
+	margin:0;
+	}
+	
+#content {
+	width:796px;
+	background-image:url('images/border.jpg');
+	background-repeat:repeat-y;
+	}
+	
+	
+	/* actual body text goes in this div */
+#middle {
+	display:inline;
+	float: left;
+	width: 49%;
+	margin-left: 25%;
+	height:100%;
+	min-height:20em;
+	padding-left:2%;
+	padding-right:2%;
+	padding-top:1%;
+	margin-top:1.7em;
+	}
+	
+#middle dl dd {
+	margin:1em;
+	}
+	
+#middle dl{
+	font-weight:bold;
+	}
+	
+#middle dl a {
+	color:#333;
+	}
+	
+#middle dl ul{
+	font-weight:normal;
+	}
+	
+#middle dl ul li{
+	font-weight:normal;
+	/*margin-left:1em;*/
+	margin-bottom:.25em;
+	}
+	
+#middle dl ul li a{
+	color:#333;
+		}
+	
+/* controls div for sub nav (LHS menu) */	
+#left {
+	display:inline;
+	float: left;
+	width: 155px;
+	margin-left: -600px;
+	padding:1%;
+	margin-top:1.7em;
+	line-height:1.75em;
+	color:#fff;
+	font-size:1.15em;
+	font-weight: bold;
+	background-image:url(images/nav_bg.jpg);
+	background-repeat:no-repeat;
+	}
+	
+#left li {
+	padding-bottom:.5em;
+	/*text-indent:1em;*/
+	}
+	
+#mid_filler {
+	display:inline;
+	float: left;
+	width: 43%;
+	margin-left: 26%;
+	height:100%;
+	min-height:20em;
+	padding:1%;
+	margin-top:1.7em;
+	}
+	
+	
+/* controls div for contact info (RHS) */	
+#right {
+	float: left;
+	display:inline;
+	color:#976c37;
+	width: 19%;
+	margin-left:1%;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:2%;
+	margin-top:1.7em;
+	background-image:url(images/contact_border.gif);
+	background-repeat:no-repeat;
+	}
+	
+#btm_text_links {
+	width:840px;
+	margin:auto;
+	text-align:center;
+	color:#333;
+	}
+
+#btm_img {
+	width:840px;
+	}
+
+#btm_grad {
+	min-height:6.8em;
+	background-image:url('images/btm_grad.jpg');
+	background-repeat:repeat-x;
+	}
+	/* STYLES FOR LAYOUT DIVS END HERE */
+	
+	
+	
+	
+	/* STYLES FOR LINKS BEGIN HERE */
+	
+
+	
+/* styles for paragraph links */
+
+p a:link {
+	color:#333;
+	text-decoration:underline;
+	}
+	
+p a:visited {
+	color:#333;
+	text-decoration:underline;
+	}
+	
+p a:hover {
+	text-decoration:none;
+	color:#000;
+	}
+	
+p a:active {
+	color:#333;
+	text-decoration:underline;
+	}
+
+
+	
+/* styles for sub nav text links */
+#left a:link {
+	text-decoration:none;
+	color:#fff;
+	}
+	
+#left a:visited {
+	text-decoration:none;
+	color:#fff;
+	}
+	
+#left a:hover {
+	text-decoration:none;
+	color:#cfa575;
+	background-color:#fff;
+	}
+	
+#left a:active {
+	text-decoration:none;
+	color:#fff;
+	}	
+	
+	
+/* styles for footer text links */
+#btm_text_links a:link {
+	text-decoration:none;
+	color:#333333;
+	}
+	
+#btm_text_links a:visited {
+	text-decoration:none;
+	color:#333333;
+	}
+	
+#btm_text_links a:hover {
+	text-decoration:underline;
+	color:#333333;
+	}
+	
+#btm_text_links a:active {
+	text-decoration:none;
+	color:#333333;
+	}	
+
+	
+	
+	/* STYLES FOR LINKS END HERE */

@@ -1,0 +1,330 @@
+/* CSS Document */
+
+/* this eliminates browser defaults for the following properties */
+html, body, p, h1, h2, h3, h4, h5, h6, legend, form, label, fieldset, div, ul, li, span, img, br{  
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+}
+
+/* ------------------------------------------------------------------------------- */
+
+
+
+
+
+/* STYLESHEET BEGINS HERE */
+
+
+html {
+	height:100%;
+	}
+
+body {
+	height:100%;
+	background-color:#fbc370; /* controls the colour of the bottom background */
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size:.7em;
+	color: #333333;
+	}
+	
+h1 {
+	font-size:1.5em;
+	font-weight:bold;
+	padding-bottom:.5em;
+	text-indent:0;
+	margin:0;
+	}
+	
+h2 {
+	font-size:1.1em;
+	font-weight:bold;
+	padding-bottom:.7em;
+	}
+	
+
+h2 a {
+	color:#333333;
+	}
+	
+h2 a:hover {
+	text-decoration:none;
+	}
+
+	
+h3 {
+	font-size:1em;
+	font-weight:bold;
+	padding-bottom:.3em;
+	}
+	
+address {
+	font-style: normal;
+	line-height:1.3em;
+	}
+	
+p {
+	line-height:1.7em;
+	padding-bottom:1.3em;
+	font-size:1.1em;
+	}
+	
+
+/* STYLES FOR MAIN NAVIGATION */	
+
+ul { 
+	list-style:none;
+	}
+	
+.text_color {
+	color:#333;
+	}
+.image_spacing {
+	padding:0px 3px 2px 0px;
+}		
+	
+	
+	
+	
+/* form styles begin here */	
+
+.hide_me {
+	display:none;
+	}
+	
+.error_message {
+	font-weight:bold;
+	color:#FF0000;
+	}
+	
+
+	
+fieldset {
+	border:none;
+}
+
+legend {
+	padding
+	color:#333333;
+	font-size:1.5em;
+	font-weight:bold;
+	}
+	
+label {
+	font-size:1.2em;
+	line-height:1.5em;
+	}
+	
+input {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1.2em;
+		}
+		
+textarea {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1.2em;
+	width:300px;
+	}
+	
+	
+	
+	
+	
+	
+	/* STYLES FOR LAYOUT DIVS BEGIN HERE */
+		
+.hide_me {
+	display:none;
+	}
+	
+#page_rap {
+	width:100%;
+	padding-top:0.5%;
+	background-color:#dd9042; /* controls colour of the top background */
+	}
+
+#main_content {
+	width:840px;
+	margin:auto;
+	background-image:url('images/border.jpg');
+	background-repeat:repeat-y;
+	}
+	
+#top_img {
+	width:840px;
+	}
+
+#content_holder {
+	width:840px;
+	margin:0;
+	}
+	
+#content {
+	width:796px;
+	background-image:url('images/border.jpg');
+	background-repeat:repeat-y;
+	}
+	
+	
+	/* actual body text goes in this div */
+#middle {
+	display:inline;
+	float: left;
+	min-height:500px;
+	width: 390px;
+	margin-left: 199px;
+	height:100%;
+	min-height:20em;
+	padding-left:2%;
+	padding-right:2%;
+	padding-top:1%;
+	margin-top:1.7em;
+	}
+	
+/* controls div for sub nav (LHS menu) */	
+#left {
+	display:inline;
+	float: left;
+	width: 152px;
+	margin-left: -600px;
+	padding:7px 7px 7px 20px;
+	margin-top:1.7em;
+	line-height:1.75em;
+	color:#333;
+	font-size:1.15em;
+	background-image:url(images/nav_bg.png);
+	background-repeat:no-repeat;
+	}
+	
+#left li {
+	padding-bottom:.5em;
+	/*text-indent:1em;*/
+	}
+	
+	
+/* controls div for contact info (RHS) */	
+#right {
+	min-height:350px;
+	float: left;
+	display:inline;
+	color:#333;
+	width: 18%;
+	margin-left:5px;
+	padding-left:2%;
+	padding-right:1%;
+	padding-top:2%;
+	margin-top:1.7em;
+	background-image:url(images/contact_border.png);
+	background-repeat:no-repeat;
+	}
+	
+#btm_text_links {
+	width:840px;
+	margin:auto;
+	text-align:center;
+	color:#333;
+	}
+
+#btm_img {
+	width:840px;
+	}
+
+#btm_grad {
+	min-height:6.8em;
+	background-image:url('images/btm_grad.jpg');
+	background-repeat:repeat-x;
+	}
+
+ul.services_list {
+	padding-left:13px;
+	}
+	
+ul.services_list li {
+	font-size:1.1em;
+	padding-bottom:1em;
+	list-style-type:circle;
+	}
+
+
+	/* STYLES FOR LAYOUT DIVS END HERE */
+	
+	
+	
+	
+	/* STYLES FOR LINKS BEGIN HERE */
+	
+
+	
+/* styles for paragraph links */
+
+p a:link {
+	color:#333;
+	text-decoration:underline;
+	}
+	
+p a:visited {
+	color:#333;
+	text-decoration:underline;
+	}
+	
+p a:hover {
+	text-decoration:none;
+	color:#000;
+	}
+	
+p a:active {
+	color:#333;
+	text-decoration:underline;
+	}
+	
+a:visited {
+	color:#333333;
+	}
+
+
+	
+/* styles for sub nav text links */
+#left a:link {
+	text-decoration:none;
+	color:#333;
+	}
+	
+#left a:visited {
+	text-decoration:none;
+	color:#333;
+	}
+	
+#left a:hover {
+	text-decoration:underline;
+	color:#333;
+	}
+	
+#left a:active {
+	text-decoration:none;
+	color:#333;
+	}	
+	
+	
+/* styles for footer text links */
+#btm_text_links a:link {
+	text-decoration:none;
+	color:#333333;
+	}
+	
+#btm_text_links a:visited {
+	text-decoration:none;
+	color:#333333;
+	}
+	
+#btm_text_links a:hover {
+	text-decoration:underline;
+	color:#333333;
+	}
+	
+#btm_text_links a:active {
+	text-decoration:none;
+	color:#333333;
+	}	
+	
+	
+	/* STYLES FOR LINKS END HERE */
