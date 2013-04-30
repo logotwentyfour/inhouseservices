@@ -165,7 +165,7 @@ and more scalable.
 */
 
 .nav {
-	border: 1px solid #ccc;
+	
 	border-bottom: 0;
 
 	li {
@@ -173,9 +173,7 @@ and more scalable.
 		a {
 			display: block;
 			text-decoration: none;
-			padding: 10px 10px;
-			background-color: #eee;
-			border-bottom: 1px solid #ccc;
+
 
 			/*
 			remember this is for mobile ONLY, so there's no need

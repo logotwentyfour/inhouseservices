@@ -1,17 +1,25 @@
-				<div id="sidebar1 right" class="sidebar fourcol last clearfix" role="complementary">
+				<div id="right" class="clearfix" role="complementary">
 
-					<?php if ( is_active_sidebar( 'sidebar1' ) ) : ?>
+			
 
-						<?php dynamic_sidebar( 'sidebar1' ); ?>
+			 <h2><a href="contact.php">Contact Details</a></h2>
+				  
+				  	<address>
+					27 Knightswood<br />
+					Santry<br />
+					Dublin 9<br />
+					Ireland
+					</address><br />
+					
+					<h3>phone</h3>+353 (0)87 417 6158<br /><br />
+					<h3>fax</h3>+353 (0)1 842 9734<br />
+					<h3>email</h3><a href="mailto:glen@inhouseservices.ie" class="text_color" title="this is an email link">glen@inhouseservices.ie</a>
+					
+					<br />
+					<br />
+					<br />
+					<br />	
 
-					<?php else : ?>
-
-						<!-- This content shows up if there are no widgets defined in the backend. -->
-
-						<div class="alert alert-help">
-							<p><?php _e("Please activate some Widgets.", "bonestheme");  ?></p>
-						</div>
-
-					<?php endif; ?>
+			
 
 				</div>
