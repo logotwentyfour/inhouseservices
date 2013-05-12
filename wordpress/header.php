@@ -38,7 +38,7 @@
 
   			<div id="top_img"> 
 
-	        <img src="/wordpress/wp-content/themes/eddiemachado-bones-6906c82/library/images/banner_logo.jpg" alt="Inhouse Services and Co logo"/>
+	        <img src="/wp-content/themes/eddiemachado-bones-6906c82/library/images/banner_logo.jpg" alt="Inhouse Services and Co logo"/>
 
   			</div>
 
