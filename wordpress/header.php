@@ -11,7 +11,7 @@
 		<!-- Google Chrome Frame for IE -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-		<title><?php wp_title(''); ?></title>
+		<title>Inhouse Services - Wainscoting Specialists, Kitchens, Doors and Carpentry</title>
 
 		<meta name="msapplication-TileColor" content="#f01d4f">
 		<meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/library/images/win8-tile-icon.png">
@@ -38,7 +38,7 @@
 
   			<div id="top_img"> 
 
-	        <img src="/wordpress/wp-content/themes/eddiemachado-bones-6906c82/library/images/banner_logo.jpg" alt="Inhouse Services and Co logo"/>
+	        <img src="http://www.inhouseservices.ie/wp-content/themes/eddiemachado-bones-6906c82/library/images/banner_logo.jpg" alt="Inhouse Services and Co logo"/>
 
   			</div>
 

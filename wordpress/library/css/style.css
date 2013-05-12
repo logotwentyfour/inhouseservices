@@ -1715,3 +1715,12 @@ a:visited {
 }
 
 /* STYLES FOR LINKS END HERE */
+/* line 51, ../scss/style.scss */
+.gallery-item {
+  float: left;
+  margin: 10px;
+}
+/* line 55, ../scss/style.scss */
+.gallery-item + br {
+  display: none;
+}
